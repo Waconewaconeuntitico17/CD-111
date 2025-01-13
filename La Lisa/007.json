@@ -1,0 +1,44 @@
+{    "name" : "LKG",
+    "location" : "lisa",
+    "specialty" : ["Caribbean"],
+    "menu" : {
+        "entree" :
+        { 
+        "items" : [],
+        "prices" : [],
+        "further_info" : [[]]
+        },
+        "main_dish" : 
+        { 
+        "items" : ["Bistec", "Fricase", "Pollo", "Cangrejo", "Arroz Frito", "Langosta", "Rueda Pescado", "Pescado Entero", "Pizza de Jamon", "Pizza de Queso", "Pizza de doble queso", "Pizza de queso gouda" ],
+        "prices" : [900, 900, 1200, 550, 600, 1400, 950, 950, 300, 200, 250, 250],
+        "further_info" : [[]]
+        },
+        "Side_dish" :
+        { 
+        "items" : [],
+        "prices" : [],
+        "further_info" : [[]]
+        },  
+        "desert" :
+        { 
+        "items" : [],
+        "prices" : [],
+        "further_info" : [[]]
+        },
+        
+      "alcoholic" : 
+         { 
+          "items" : [],
+          "prices" : [],
+          "further_info" : [[]]
+          },
+      "non_alcoholic" :
+          { 
+          "items" : ["espresso", "Agua mineral", "Cerveza", "Refresco importado", "Batidos de frutas"],
+          "prices" : [20, 150, 250, 230, 235],
+          "further_info" : [[]]  
+          }
+     }
+    }    
+

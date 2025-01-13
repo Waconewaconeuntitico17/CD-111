@@ -1,0 +1,44 @@
+{    "name" : "La Baliza",
+    "location" : "lisa",
+    "specialty" : ["Fast Food"],
+    "menu" : {
+        "entree" :
+        { 
+        "items" : [],
+        "prices" : [],
+        "further_info" : [[]]
+        },
+        "main_dish" : 
+        { 
+        "items" : ["Sandwich de Jamon y Queso", "Hamburguesa", "Super Hamburguesa", ["Pizza con queso gouda (small)", ["Jamon", "Queso Gou"]] , ["Pizza con queso gouda (large)", ["Jamon", "Queso gouda"]], ["Pizza de queso blanco (small)", ["Jamon", "Queso gouda"]], ["Pizza de queso blanco(large)", ["Jamon", "Queso gouda"]] ],
+        "prices" : [500, 490, 950, [450, [150, 200]], [700,[150, 200]], [350, [150, 200]], [520, [150, 200]] ],
+        "further_info" : [[]]
+        },
+        "Side_dish" :
+        { 
+        "items" : [],
+        "prices" : [],
+        "further_info" : [[]]
+        },  
+        "desert" :
+        { 
+        "items" : [],
+        "prices" : [],
+        "further_info" : [[]]
+        },
+        
+      "alcoholic" : 
+         { 
+          "items" : ["Cerveza Importada"],
+          "prices" : [250],
+          "further_info" : [[]]
+          },
+      "non_alcoholic" :
+          { 
+          "items" : ["Batido de Mamey", "Refresco importado", "Agua mineral natural"],
+          "prices" : [230, 230, 150],
+          "further_info" : [[]]  
+          }
+     }
+    }    
+
