@@ -132,17 +132,15 @@ def Diversity_within_a_menu(json_file, category, min):
  length = len(json_file.get("menu").get(category).get("items")) 
  if length < min :
    return None
- #if N == 0:
-  #print(json_file["name"])
-  #print(len(json_file.get("menu").get(category).get("items")) )
  Suma = 0
  N = 0
  compare = []
  rest = 0
  for d in tipos :
-   n = 0
+   n = 0 
    for c in get_out_of_category(json_file, "items", tipos[d], category, "or") :
-      if c != category:
+      if c not in compare:
+       if c != category:
         compare.append(c)
         n += 1
         N += 1
@@ -153,7 +151,7 @@ def Diversity_within_a_menu(json_file, category, min):
  Suma += (rest*(rest-1))
  N += rest
  if N != 0 : 
-  return 1 - (Suma / (N * (N-1)))
+  return (Suma / (N * (N-1)))
  else :
    return None
    

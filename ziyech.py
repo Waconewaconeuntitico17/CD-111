@@ -108,6 +108,7 @@ def troipummons(minim) :
   checked = []
   rank = []
   allrest = {}
+  munc = {}
   pos = 0
   for i in mun :
    for l in Path(i).iterdir():
@@ -116,6 +117,7 @@ def troipummons(minim) :
       if functions.Diversity_within_a_menu(ouf, "main_dish", minim) is not None:
        rank.append(functions.Diversity_within_a_menu(ouf, "main_dish", minim)) 
        allrest[ouf.get("name")] = functions.Diversity_within_a_menu(ouf, "main_dish", minim)
+       munc[ouf.get("name")] = i
   rank.sort()
   for n in rank:
     if pos < 29 : 
@@ -124,7 +126,7 @@ def troipummons(minim) :
        if allrest[t] == n:
         checked.append(t)
         pos += 1
-        print(f'{pos}.  {t} {n}')
+        print(f'{pos}.  {t}  ({munc[t]})')
    
 
     
